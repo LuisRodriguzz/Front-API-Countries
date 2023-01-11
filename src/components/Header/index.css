@@ -1,0 +1,40 @@
+.cntheader{
+    height: 70px;
+    display: flex;
+    font-family: inherit;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0,0.65);
+    align-items: center;  
+    justify-content: space-between;
+    padding: 0 16px;  
+}
+
+.linkheader{
+    position: relative;
+    width: 219px;
+    height: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0, 0.7);
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkheader:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.linkheader:active {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
