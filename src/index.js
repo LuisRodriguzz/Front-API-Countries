@@ -8,9 +8,9 @@ import { Provider } from 'react-redux';
 import { store } from './redux/store'
 import axios from 'axios';
 import dotenv from "dotenv";
-dotenv.config();
+/* dotenv.config();
 
-axios.defaults.baseURL = "https://back-api-countries-production.up.railway.app"
+axios.defaults.baseURL = "https://back-api-countries-production.up.railway.app" */
 
 /* axios.defaults.baseURL = process.env.REACT_APP_API || "http://localhost:3001"; */
 
